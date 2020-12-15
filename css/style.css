@@ -1,0 +1,189 @@
+body {
+
+    padding: 0;
+    margin: 0;
+    /* COULEUR CSS GRADIENT */
+    background: rgb(18,255,252);
+    background: linear-gradient(287deg, rgba(18,255,252,1) 25%, rgba(194,160,160,1) 50%, rgb(56, 138, 139) 81%);
+}
+
+#my_music {
+
+    background-color: brown;
+    height: 7vh;
+    text-align: center;
+}
+
+.titre_my_music {
+
+    font-size: 45px;
+    color: white;     
+}
+
+.copyright {
+
+    color: white;
+    
+}
+.fa-music {
+
+    color:black;
+    font-size: 40px;
+}
+
+ul li {
+
+    /* MASQUER L'AFFICHAGE DES LISTES A PUCE */
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+    font-family: 'Roboto', sans-serif;  
+}
+
+li a {
+
+    color: black;
+}
+
+a:hover {
+
+    /* APPLIQUER UN EFFET DE TRANSITION AU PASSAGE DE LA SOURIS */
+    color: white;
+    transition: .3s;
+}
+
+.en_savoir_plus {
+
+    color: black;
+}
+
+h1 {
+
+    font-size: 30px;
+    color: yellow;  
+    text-align: center;
+}
+
+.bd-example {
+
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+}
+
+#carouselExampleCaptions {
+
+    width: 45%;
+}
+
+h5  {
+
+    color: yellow;
+    text-align: right;
+}
+
+.listen {
+
+    border: solid black 1px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: pink;
+}
+
+button {
+    color: blue;
+    border-radius: 4pc;
+    margin-top: 5px;
+}
+
+.liste_icones {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px; 
+}
+  
+.liste_icones li {
+
+    margin: 50px;
+    
+}
+  
+.fa-spotify {
+  
+    font-size: 30px;
+}
+  
+.fa-deezer {
+
+    font-size: 30px;
+}
+
+footer {
+
+    background: grey;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+/* RACCOURCI CLASS */
+
+.flex {
+
+    display: flex;
+
+ }
+
+.alignCenter {
+
+     align-items: center;
+ }
+
+.justify {
+
+    justify-content: space-around;
+ }
+
+.justifyCenter {
+
+    justify-content: center;
+ }
+
+ /* MEDIA QUERIES - RESPONSIVE */
+
+@media screen and (max-width: 650px)
+{
+    h1 {
+        color: red; 
+        font-size: 1.5em;
+        background-color: black;   
+    }
+
+     section {
+
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         padding-top: 10px;
+     }
+
+     ul {
+
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+     }
+
+     #carouselExampleCaptions {
+
+          width: auto;
+     }
+
+     a:hover {
+         color: yellow ;
+     }
+
+}

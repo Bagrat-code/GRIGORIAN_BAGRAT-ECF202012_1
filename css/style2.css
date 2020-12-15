@@ -1,0 +1,226 @@
+body {
+
+    /* COULEUR CSS GRADIENT */
+    background: rgb(18,255,252);
+    background: linear-gradient(287deg, rgba(18,255,252,1) 25%, rgba(194,160,160,1) 50%, rgb(56, 138, 139) 81%);
+  }
+ 
+#my_music {
+    
+    background-color: brown;
+    text-align: center;  
+}
+
+.copyright {
+
+  color: white;
+}
+
+.fa-music {
+
+  color:black;
+  font-size: 40px;
+}
+
+.liste_icones {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.liste_icones li {
+
+  margin: 30px;
+}
+
+.fa-spotify {
+
+  font-size: 30px;
+}
+
+.fa-deezer {
+
+  font-size: 30px;
+}
+
+.titre_my_music {
+
+    font-size: 45px;
+    color: white;     
+}
+  
+/* UTILISATION DE GRID / DETERMINATION DES PROPRIETES DES COLONNES ET LIGNES */
+.grid-1 {
+
+    display: grid;
+    grid-template-columns: 33vw 33vw 33.1vw;
+    grid-template-rows: 100vh;
+    
+  }
+
+  /* VIDEO YOUTUBE */
+iframe {
+
+    margin-top: 10px;
+  }
+
+  /* RETIRER LE SOULIGNAGE*/
+a {
+
+    text-decoration: none;
+  }
+  
+  /* ITEM GRID BACKGROUND */
+
+.item-1 {
+    /* ../ ME SERT A REVENIR EN ARRIERE DANS L'ARBORESCENCE VU QUE JE SUIS DANS LE DOSSIER CSS */
+    background-image: url("../img/blackpink.jpg");
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+  }
+
+
+  .item-2 {
+
+    background-image: url("../img/bts.jpg");
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    
+  }
+.item-3 { 
+
+    background-image: url("../img/twice.jpeg");
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    
+  }
+
+.card {
+
+    display: flex;
+    justify-content: center;
+    text-align: center;    
+}
+
+footer {
+
+  background: grey;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+ul li {
+  /* MASQUER L'AFFICHAGE DES LISTES A PUCE */
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px ;
+  /* APPLIQUE LA POLICE DE CARACTERE */
+  font-family: 'Roboto', sans-serif;  
+}
+
+li a {
+
+  color: black;
+}
+
+a:hover {
+  /* APPLIQUER UN EFFET DE TRANSITION AU PASSAGE DE LA SOURIS */
+  color: white;
+  transition: .3s;
+}
+  
+  /* RACCOURCI CLASS */
+
+  .flex {
+
+    display: flex;
+
+ }
+
+ .alignCenter {
+
+     align-items: center;
+ }
+
+ .justify {
+
+    justify-content: space-around;
+ }
+
+ .justifyCenter {
+
+    justify-content: center;
+ }
+
+/* RACCOURCI COULEUR */
+
+ .marron {
+
+  color: #b03532;
+ }
+
+
+.bleu {
+
+  color: #33a8a5; ;
+}
+ 
+.orange {
+
+  color: #da6f2b;
+}
+
+.rouge {
+  
+  color: red;
+}
+
+.police_gras {
+
+  font-weight: bold;
+} 
+
+/* MEDIA QUERIES - RESPONSIVE */
+
+@media screen and (max-width: 650px)
+{
+    
+    .grid-1 {
+
+      display: none;
+    }
+      
+
+     section {
+
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         padding-top: 10px;
+     }
+
+     ul {
+
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+     }
+
+     a:hover {
+         color: yellow ;
+     }
+
+     .card {
+       margin-top: 30px;
+     }
+}
+
+
+
+
+
