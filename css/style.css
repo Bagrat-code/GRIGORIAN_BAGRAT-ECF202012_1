@@ -90,6 +90,7 @@ h5  {
     justify-content: center;
     justify-content: space-around;
     background-color: pink;
+    margin-top: 25px;
 }
 
 button {
@@ -127,13 +128,14 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 footer {
 
     background: grey;
     justify-content: space-between;
-    margin: 10px;
+    margin-top: 10px;
 }
 
 /* RACCOURCI CLASS */
@@ -163,6 +165,7 @@ footer {
 
 @media screen and (max-width: 650px)
 {
+
     h1 {
         color: red; 
         font-size: 1.5em;
@@ -182,6 +185,7 @@ footer {
          display: flex;
          flex-direction: column;
          align-items: center;
+         font-size: 15px;
      }
 
      #carouselExampleCaptions {
@@ -191,6 +195,11 @@ footer {
 
      a:hover {
          color: yellow ;
+     }
+
+     .listen {
+
+        margin-top: 15px;
      }
 
 }

@@ -82,7 +82,7 @@ a {
   }
 
 
-  .item-2 {
+.item-2 {
 
     background-image: url("../img/bts.jpg");
     background-position: center;
@@ -123,7 +123,7 @@ footer {
 
   background: grey;
   justify-content: space-between;
-  margin: 50px;
+  margin-top: 15px;
 }
 
 ul li {
