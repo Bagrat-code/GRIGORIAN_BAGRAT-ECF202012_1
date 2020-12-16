@@ -122,6 +122,13 @@ button {
     font-size: 30px;
 }
 
+.search {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 footer {
 
     background: grey;
